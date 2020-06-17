@@ -4,4 +4,4 @@ This repository contains two solutions with sample code demonstrating the DataGr
 
 The UWP sample code works as expected. However, the WinUI3 Desktop sample code does not display the DataGrid.
 
-For more details about the WinUI3 Desktop issue, go to the issue here. ** Insert link here **
+For more details about the WinUI3 Desktop issue, go to the issue [here](https://github.com/microsoft/microsoft-ui-xaml/issues/2703).
