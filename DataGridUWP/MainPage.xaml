@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="DataGridUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DataGridUWP"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel Orientation="Vertical">
+
+            <TextBlock Text="Customer Data Grid"
+                   Margin="5,5,5,5"/>
+
+            <controls:DataGrid x:Name="dataGrid1" 
+                               AutoGenerateColumns="True"
+                               AutoGeneratingColumn="dataGrid1_AutoGeneratingColumn"/>
+
+            <TextBlock x:Name="dataGrid1ColumnNamesTextBlock"
+                       Text="Customer Data Grid Column Names"
+                       Margin="5,5,5,5"/>
+            
+        </StackPanel>
+    </Grid>
+</Page>
